@@ -1,0 +1,15 @@
+
+    // useEffect(() => {
+    //     // Make a request to your API endpoint to retrieve the image data
+    //     axios.get(`http://localhost:3001/uploads/${venue.venue_id}`, { responseType: 'blob' })
+    //       .then(response => {
+    //         // Convert the BLOB data to a URL that can be used to display the image
+    //         console.log(response.data);
+    //         const imageUrl = URL.createObjectURL(response.data);
+    //         setImageUrl(imageUrl);
+    //         console.log(imageUrl); // This will log the correct URL
+    //       })
+    //       .catch(error => {
+    //         console.error('Error fetching image:', error);
+    //       });
+    //   }, [venue.venue_id, setImageUrl]);
